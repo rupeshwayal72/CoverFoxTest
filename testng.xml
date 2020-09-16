@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="VTS AUTOMATION TEST SUITE">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+
+		<listener class-name="com.vts.qa.util.WebEventListener" />
+
+		<listener
+			class-name="com.vts.qa.ExtentReportListner.ExtentReportListenerNG" />
+	</listeners>
+
+	<test name="viewQuotesTest">
+		<classes>
+			<class name="com.vts.qa.testcases.viewQuotesTest" />
+		</classes>
+	</test>
+
+	<test name="viewQuotesTest2">
+		<classes>
+			<class name="com.vts.qa.testcases.viewQuotesTest2" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
+
+
+
+
+	
+
+
+
+
